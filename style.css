@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .background{
+    background-image: url(https://via.placeholder.com/1920x1080.png);
+    height: 590px;
+  }
+  .navbar{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 0, 180);
+  }
+  .navbar a{
+    padding: 10px;
+  }
+  a:hover{
+    color: red;
+  }
+  .title{
+    text-align: center;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column li{
+    padding: 10px;
+    text-align: justify;
+  }
+  .col {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px; 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* Should be removed. Only for demonstration */
+  }
+  .col img{
+    width: 70%;
+    height: 65%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px double red;
+    border-bottom: 4px double red;
+    border-left: 4px double blue;
+    border-right: 4px double blue;
+  }
+  .col2 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px; 
+    text-align: center;
+    /* Should be removed. Only for demonstration */
+  }
+  .col2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px ;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .col{
+      width: 100%;
+    }
+    .col2{
+      width: 100%;
+    }
+  }
+.form{
+  margin-top: 40px;
+}
+  .foot{
+    text-align: center;
+    background-color: rgb(255, 0, 183);
+    color: black;
+    margin-top: 110px;
+  }
+  .area form{
+   text-align: justify;
+   margin-left: 84px;
+  }
